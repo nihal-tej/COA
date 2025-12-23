@@ -1,7 +1,0 @@
-addi a2,zero,6
-addi a3,zero,0
-beq a2,zero,7
-add a3,a3,a2
-addi a2,a2,-1
-beq zero,zero,3
-sw a3,-5(s0)
